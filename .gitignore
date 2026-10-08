@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.aux
+*.log
+*.out
+*.synctex.gz

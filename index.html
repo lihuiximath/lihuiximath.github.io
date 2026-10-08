@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal academic homepage, research, publications and preprints.">
+  <title>Academic Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230000ee'/%3E%3Ctext x='16' y='25' text-anchor='middle' font-family='Georgia,serif' font-size='27' fill='white'%3E%E2%88%91%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#research">Skip to main content</a>
+  <main>
+    <header class="profile">
+      <!-- Replace this block with <img class="portrait" src="assets/photo.jpg" alt="Your Name"> when a photo is ready. -->
+      <div class="portrait portrait-placeholder" role="img" aria-label="Photo placeholder">Photo</div>
+      <div class="profile-details">
+        <!-- Replace the name and blank fields with your own information. -->
+        <h1>Your Name <span class="chinese-name" lang="zh-CN">（姓名）</span></h1>
+        <div class="affiliation">
+          <p class="blank-field" aria-label="University or institution"></p>
+          <p class="blank-field" aria-label="Department"></p>
+          <p class="blank-field" aria-label="Address"></p>
+        </div>
+        <p class="contact-field">E-mail: <span><!-- Add a public contact email here if desired. --></span></p>
+        <p class="contact-field">Office: <span><!-- Add an office here. --></span></p>
+      </div>
+    </header>
+
+    <p class="biography"><!-- Add a short introduction and a CV link here, e.g. <a href="assets/cv.pdf">CV</a>. --></p>
+
+    <nav class="section-nav" aria-label="Academic pages">
+      <a href="teach.html">Teaching</a>
+      <a href="seminar.html">Seminar</a>
+      <a href="talk.html">Selected Talks</a>
+      <a href="miscellany.html">Miscellany</a>
+    </nav>
+
+    <section id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading">Research Interests</h2>
+      <div class="empty-content"><!-- Add your research interests here. --></div>
+    </section>
+
+    <section id="publications" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Publications and Preprints</h2>
+      <ol class="publications" reversed>
+        <!-- Add your real papers here. One entry can look like this:
+        <li>
+          <strong>Paper title</strong> (with Coauthor).<br>
+          <em>Journal or Preprint</em>, Year.
+          [<a href="papers/paper-slug.pdf">PDF</a>]
+        </li>
+        -->
+      </ol>
+    </section>
+
+    <section id="links" aria-labelledby="links-heading">
+      <h2 id="links-heading">Useful Math Links</h2>
+      <ul class="math-links"><!-- Add useful math links here. --></ul>
+    </section>
+  </main>
+</body>
+</html>
